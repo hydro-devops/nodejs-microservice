@@ -4,7 +4,7 @@ metadata:
   name:  api-gateway
   namespace: default
   labels:
-    component: api-gateway
+    app: api-gateway
 spec:
   selector:
     matchLabels:
